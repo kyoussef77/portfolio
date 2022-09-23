@@ -1,3 +1,5 @@
+(function() {
+    window.addEventListener('DOMContentLoaded', function (event) {
 /*==================== MENU SHOW Y HIDDEN ====================*/
 const navMenu = document.getElementById('nav-menu'),
     navToggle = document.getElementById('nav-toggle'),
@@ -70,3 +72,6 @@ skillsHeader.forEach((el) =>{
 
 
 /*==================== DARK LIGHT THEME ====================*/ 
+
+});
+})();
